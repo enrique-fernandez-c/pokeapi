@@ -33,7 +33,8 @@ function mostrarPokemon(datos) {
             <img src="${datos.sprites.front_default}">
             <p>Tipo: ${tipos}</p>
             <p>Peso: ${datos.weight}</p>
-            <p>Altura: ${datos.height}</p>    
+            <p>Altura: ${datos.height}</p>
+            <p>Experiencia: ${datos.base_experience}</p>
         </div>
     `
 }
